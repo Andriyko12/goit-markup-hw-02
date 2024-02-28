@@ -13,7 +13,7 @@ ul {
 }
 
 /* Header */
-.logo {
+.header-logo {
 	color: #4d5ae5;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
@@ -23,7 +23,7 @@ ul {
 	text-transform: uppercase;
 }
 
-.logo-part {
+.header-logo-part {
 	color: #2e2f42;
 }
 
@@ -83,8 +83,8 @@ ul {
 	background-color: #4d5ae5;
 }
 
-.title-btn:hover,
-.title-btn:focus {
+.order-service-btn:hover,
+.order-service-btn:focus {
 	background-color: #404bbf;
 }
 
@@ -92,7 +92,7 @@ ul {
 .about-item-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.11;
+	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
@@ -172,6 +172,21 @@ ul {
 .footer {
 	background: #2e2f42;
 }
+
+.footer-logo {
+	color: #4d5ae5;
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.footer-logo-part {
+	color: #f4f4fd;
+}
+
 .footer-text {
 	font-weight: 400;
 	font-size: 16px;
