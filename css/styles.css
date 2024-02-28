@@ -60,6 +60,10 @@ ul {
 }
 
 /* Order Service */
+.order-service {
+	background: #2e2f42;
+}
+
 .order-service-title {
 	color: #fff;
 	font-weight: 700;
