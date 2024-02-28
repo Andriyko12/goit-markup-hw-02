@@ -13,18 +13,17 @@ ul {
 }
 
 /* Header */
-
 .logo {
 	color: #4d5ae5;
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 1.16667;
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 }
 
-.header-logo-part {
+.logo-part {
 	color: #2e2f42;
 }
 
@@ -52,6 +51,7 @@ ul {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
+	color: #434455;
 }
 
 .address-link:hover,
@@ -59,16 +59,17 @@ ul {
 	color: #404bbf;
 }
 
-/* Title */
-.title {
+/* Order Service */
+.order-service-title {
 	color: #fff;
 	font-weight: 700;
 	font-size: 56px;
-	line-height: 1.07143;
+	line-height: 1.07;
 	letter-spacing: 0.02em;
+	text-align: center;
 }
 
-.title-btn {
+.order-service-btn {
 	color: #fff;
 	font-weight: 500;
 	font-size: 16px;
@@ -84,11 +85,10 @@ ul {
 }
 
 /* About */
-
 .about-item-title {
 	font-weight: 500;
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
 }
@@ -101,13 +101,22 @@ ul {
 }
 
 /* Team */
+.team {
+	background: #f4f4fd;
+}
 
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	text-align: center;
+	text-transform: capitalize
+}
+
+.team-item {
+	background: #fff;
 }
 
 .team-item-title {
@@ -133,9 +142,11 @@ ul {
 .portfolio-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 1.11111;
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 	color: #2e2f42;
+	text-align: center;
+	text-transform: capitalize;
 }
 
 .portfolio-item-title {
@@ -154,7 +165,9 @@ ul {
 }
 
 /* Footer */
-
+.footer {
+	background: #2e2f42;
+}
 .footer-text {
 	font-weight: 400;
 	font-size: 16px;
